@@ -6,3 +6,4 @@
 * [Описание адаптеров](opisanie-adapterov.md)
 * [API](api.md)
 * [Реакции бота](reakcii-bota.md)
+* [Функции иникаторов](funkcii-inikatorov.md)
