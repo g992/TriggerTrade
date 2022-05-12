@@ -29,3 +29,7 @@ GET /utils/getIndicators - Возвращает обьект индикатор�
 POST /utils/getTrades - в теле {query: {query search\}}, возвращает сделки, найденнные по запросу query search
 
 POST /utils/getOrders - в теле {query: {query search\}}, возвращает ордера, найденнные по запросу query search
+
+GET /utils/getSettings - возвращает обьект настроек
+
+POST /utils/editSettings - в теле обьект настроек
