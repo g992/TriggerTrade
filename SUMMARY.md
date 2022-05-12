@@ -1,9 +1,8 @@
 # Table of contents
 
 * [Описание](README.md)
-* [Описание триггеров](opisanie-triggerov.md)
-* [Описание трейдеров](opisanie-treiderov.md)
-* [Описание адаптеров](opisanie-adapterov.md)
+* [Описание конфигурации триггеров](opisanie-konfiguracii-triggerov.md)
+* [Описание конфигурации трейдеров](opisanie-konfiguracii-treiderov.md)
 * [API](api.md)
 * [Реакции бота](reakcii-bota.md)
 * [Функции иникаторов](funkcii-inikatorov.md)
