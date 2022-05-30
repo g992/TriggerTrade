@@ -22,6 +22,8 @@ POST /traders/addTrader - добавление трейдела в конфиг,
 
 POST /traders/getTradersFromTrigger - возвращает активных трейдеров у активного триггера, в теле обьект {trigger: имя триггера}, res - {success: true, traders: {\}}
 
+POST /traders/editTrader - редактирование трейдера, в теле {trader: traderName, edit: \[{key: key1, value: value1},{key: key2, value: value2}]}
+
 GET /utils/system - Возвращает системную нагрузку
 
 GET /utils/getIndicators - Возвращает обьект индикаторов
