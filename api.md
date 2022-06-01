@@ -20,9 +20,13 @@ GET /traders/getTraders - возвращает сохраненных трейд
 
 POST /traders/addTrader - добавление трейдела в конфиг, в теле {trader: {name: traderName, config: {key: value\}}}
 
-POST /traders/getTradersFromTrigger - возвращает активных трейдеров у активного триггера, в теле обьект {trigger: имя триггера}, res - {success: true, traders: {\}}
+POST /traders/getTradersFromTrigger - возвращает активных трейдеров у активного триггера и их состояния, в теле обьект {trigger: имя триггера}, res - {success: true, traders: {\}}
 
 POST /traders/editTrader - редактирование трейдера, в теле {trader: traderName, edit: \[{key: key1, value: value1},{key: key2, value: value2}]}
+
+POST /traders/deleteTrader - удаление трейдера из конфига, в теле {trader: traderName}
+
+POST /traders/terminateTrader - остановка трейдера, позиция остается, убираются ордера, в теле {trigger: triggerName, trader: traderName}
 
 GET /utils/system - Возвращает системную нагрузку
 
