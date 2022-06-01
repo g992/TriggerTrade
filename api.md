@@ -38,4 +38,6 @@ POST /utils/getOrders - в теле {query: {query search\}}, возвращае
 
 GET /utils/getSettings - возвращает обьект настроек
 
+GET /utils/log - возвращает лог работы, хранится только последние 100 строк
+
 POST /utils/editSettings - в теле обьект настроек
